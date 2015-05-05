@@ -7,7 +7,7 @@
 [PostCSS] plugin to insert 3D hack before will-change property.
 
 This plugin uses `backface-visibility` to has prevent overriding
-more popular `transform` property.
+more popular `transform` property.
 
 Use this plugin only before [Autoprefixer]. It will add vendor prefixes
 to `backface-visibility`.

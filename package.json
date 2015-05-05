@@ -2,7 +2,7 @@
     "name": "postcss-will-change",
     "version": "0.1.0",
     "description": "PostCSS plugin to insert 3D hack before will-change property",
-    "keywords": ["postcss", "css", "postcssplugin", "will-change", "fallback"],
+    "keywords": ["postcss", "css", "postcss-plugin", "will-change", "fallback"],
     "author": "Andrey Sitnik <andrey@sitnik.ru>",
     "license": "MIT",
     "repository": {

@@ -4,7 +4,7 @@
      title="Philosopher’s stone, logo of PostCSS"
      src="http://postcss.github.io/postcss/logo.svg">
 
-[PostCSS] plugin to insert 3D hack before will-change property.
+[PostCSS] plugin to insert 3D hack before [will-change] property.
 
 This plugin uses `backface-visibility` to has prevent overriding
 more popular `transform` property.
@@ -13,6 +13,7 @@ Use this plugin only before [Autoprefixer]. It will add vendor prefixes
 to `backface-visibility`.
 
 [Autoprefixer]: https://github.com/postcss/autoprefixer
+[will-change]:  https://dev.opera.com/articles/css-will-change-property/
 [PostCSS]:      https://github.com/postcss/postcss
 [ci-img]:       https://travis-ci.org/postcss/postcss-will-change.svg
 [ci]:           https://travis-ci.org/postcss/postcss-will-change

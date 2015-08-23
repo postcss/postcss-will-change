@@ -1,6 +1,6 @@
 {
   "name": "postcss-will-change",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "PostCSS plugin to insert 3D hack before will-change property",
   "keywords": [
     "postcss",

@@ -1,3 +1,6 @@
+## 1.1
+* Do not add `backface-visibility` if rule already has it (by Joe Lencioni).
+
 ## 1.0
 * Use PostCSS 5.0 API.
 

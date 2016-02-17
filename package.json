@@ -11,10 +11,7 @@
   ],
   "author": "Andrey Sitnik <andrey@sitnik.ru>",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url":  "https://github.com/postcss/postcss-will-change.git"
-  },
+  "repository": "postcss/postcss-will-change.git",
   "dependencies": {
     "postcss": "^5.0.2"
   },

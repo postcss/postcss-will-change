@@ -6,9 +6,11 @@
 
 [PostCSS] plugin to insert 3D hack before [will-change] property.
 
-This plugin uses `backface-visibility` to force the browser to create a new layer.
-This is commonly done with `transform: translateZ(0)` and `transform: translate3d(0, 0, 0)`.
-`backface-visibility` is used here to avoid overriding the more popular transform property.
+This plugin uses `backface-visibility` to force the browser to create a new
+layer, without overriding existing `backface-visibility` properties. This CSS
+hack is commonly done with `transform: translateZ(0)` or `transform:
+translate3d(0, 0, 0)` (null transform hack), but `backface-visibility` is used
+here to avoid overriding the more popular `transform` property.
 
 These hacks are required for browsers that do not support `will-change`.
 

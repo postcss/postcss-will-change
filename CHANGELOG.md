@@ -1,6 +1,9 @@
 # Change Log
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 2.0
+* Use PostCSS 6.
+
 ## 1.1
 * Do not add `backface-visibility` if rule already has it (by Joe Lencioni).
 

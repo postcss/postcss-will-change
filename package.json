@@ -13,11 +13,11 @@
   "license": "MIT",
   "repository": "postcss/postcss-will-change.git",
   "dependencies": {
-    "postcss": "^5.0.16"
+    "postcss": "^6.0.1"
   },
   "devDependencies": {
     "ava": "^0.11.0",
-    "eslint": "^2.1.0",
+    "eslint": "^3.19.0",
     "eslint-config-postcss": "^2.0.2"
   },
   "scripts": {

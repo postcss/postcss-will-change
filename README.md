@@ -1,8 +1,8 @@
-# PostCSS Will Change [![Build Status][ci-img]][ci]
+# PostCSS Will Change
 
-<img align="right" width="95" height="95"
+<img align="right" width="135" height="95"
      title="Philosopher’s stone, logo of PostCSS"
-     src="http://postcss.github.io/postcss/logo.svg">
+     src="https://postcss.org/logo-leftp.svg">
 
 [PostCSS] plugin to insert 3D hack before [will-change] property.
 
@@ -20,8 +20,6 @@ to `backface-visibility`.
 [Autoprefixer]: https://github.com/postcss/autoprefixer
 [will-change]:  https://dev.opera.com/articles/css-will-change-property/
 [PostCSS]:      https://github.com/postcss/postcss
-[ci-img]:       https://travis-ci.org/postcss/postcss-will-change.svg
-[ci]:           https://travis-ci.org/postcss/postcss-will-change
 
 ```css
 .foo {
@@ -36,10 +34,30 @@ to `backface-visibility`.
 }
 ```
 
+<a href="https://evilmartians.com/?utm_source=postcss-will-change">
+  <img src="https://evilmartians.com/badges/sponsored-by-evil-martians.svg"
+       alt="Sponsored by Evil Martians" width="236" height="54">
+</a>
+
+
 ## Usage
 
-```js
-postcss([ require('postcss-will-change') ])
+**Step 1:** Check you project for existed PostCSS config: `postcss.config.js`
+in the project root, `"postcss"` section in `package.json`
+or `postcss` in bundle config.
+
+If you do not use PostCSS, add it according to [official docs]
+and set this plugin in settings.
+
+**Step 2:** Add the plugin to plugins list:
+
+```diff
+module.exports = {
+  plugins: [
++   require('postcss-will-change'),
+    require('autoprefixer')
+  ]
+}
 ```
 
-See [PostCSS] docs for examples for your environment.
+[official docs]: https://github.com/postcss/postcss#usage

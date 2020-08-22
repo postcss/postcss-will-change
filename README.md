@@ -23,14 +23,14 @@ to `backface-visibility`.
 
 ```css
 .foo {
-    will-change: transform;
+  will-change: transform;
 }
 ```
 
 ```css
 .foo {
-    backface-visibility: hidden;
-    will-change: transform;
+  backface-visibility: hidden;
+  will-change: transform;
 }
 ```
 

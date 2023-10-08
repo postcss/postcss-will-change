@@ -1,6 +1,5 @@
 module.exports = () => {
   return {
-    postcssPlugin: 'postcss-will-change',
     Declaration: {
       'will-change': decl => {
         let already = decl.parent.some(i => {
@@ -10,7 +9,8 @@ module.exports = () => {
           decl.cloneBefore({ prop: 'backface-visibility', value: 'hidden' })
         }
       }
-    }
+    },
+    postcssPlugin: 'postcss-will-change'
   }
 }
 module.exports.postcss = true
